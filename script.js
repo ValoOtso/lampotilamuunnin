@@ -11,19 +11,19 @@ function muunna(){
     } else {
         if (document.getElementById("valitsin").value == "from_celcius") {
             if (lampotila <= -20) {
-                document.body.style.backgroundImage = 'url(../img/metsä3.jpg)'
+                document.body.style.backgroundImage = 'url(../img/metsa3.jpg)'
                 document.body.style.backgroundPosition = "center center"
                 document.body.style.backgroundSize = 'cover'
                 document.body.style.backgroundRepeat = 'no-repeat'
                 document.body.style.backgroundAttachment = 'fixed'
             } else if (lampotila >= 20) {
-                document.body.style.backgroundImage = 'url(../img/metsä.jpg)'
+                document.body.style.backgroundImage = 'url(../img/metsa.jpg)'
                 document.body.style.backgroundPosition = 'center center'
                 document.body.style.backgroundSize = 'cover'
                 document.body.style.backgroundRepeat = 'no-repeat'
                 document.body.style.backgroundAttachment = 'fixed'
             } else {
-                document.body.style.backgroundImage = 'url(../img/metsä2.webp)'
+                document.body.style.backgroundImage = 'url(../img/metsa2.webp)'
                 document.body.style.backgroundPosition = 'center center'
                 document.body.style.backgroundSize = 'cover'
                 document.body.style.backgroundRepeat = 'no-repeat'
@@ -35,19 +35,19 @@ function muunna(){
             value = (lampotila-32) / 1.8;
             document.getElementById("tulostus").innerHTML = value + ' Celcius';
             if (value <= -20) {
-                document.body.style.backgroundImage = 'url(../img/metsä3.jpg)'
+                document.body.style.backgroundImage = 'url(../img/metsa3.jpg)'
                 document.body.style.backgroundPosition = "center center"
                 document.body.style.backgroundSize = 'cover'
                 document.body.style.backgroundRepeat = 'no-repeat'
                 document.body.style.backgroundAttachment = 'fixed'
             } else if (value >= 20) {
-                document.body.style.backgroundImage = 'url(../img/metsä.jpg)'
+                document.body.style.backgroundImage = 'url(../img/metsa.jpg)'
                 document.body.style.backgroundPosition = 'center center'
                 document.body.style.backgroundSize = 'cover'
                 document.body.style.backgroundRepeat = 'no-repeat'
                 document.body.style.backgroundAttachment = 'fixed'
             } else {
-                document.body.style.backgroundImage = 'url(../img/metsä2.webp)'
+                document.body.style.backgroundImage = 'url(../img/metsa2.webp)'
                 document.body.style.backgroundPosition = 'center center'
                 document.body.style.backgroundSize = 'cover'
                 document.body.style.backgroundRepeat = 'no-repeat'
