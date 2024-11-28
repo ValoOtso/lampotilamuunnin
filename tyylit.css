@@ -1,0 +1,21 @@
+body {
+    background-image: url('metsä2.webp');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+    background-color: rgba(245, 245, 220, 0.526);
+    padding: 20px 50px;
+}
+
+h1 {
+    background-color:darkgreen;
+    border-radius: 5px;
+    padding: 10px;
+}
