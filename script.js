@@ -4,7 +4,7 @@ function muunna(){
     let lampotila = Number(document.getElementById("syote").value);
     if (isNaN(lampotila)) {
         alert('Syötä luku!')
-    } else if (document.getElementById('syote').value.lenght == 0) {
+    } else if (document.getElementById('syote').value.length == 0) {
         alert('Syötä luku!')
     } else if (lampotila < -273.15 && document.getElementById("valitsin").value == "from_celcius") {
         alert('Lämpötila on alle absoluuttisen nollapisteen!')
