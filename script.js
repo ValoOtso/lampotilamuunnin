@@ -11,7 +11,7 @@ function muunna(){
     } else {
         if (document.getElementById("valitsin").value == "from_celcius") {
             if (lampotila <= -20) {
-                document.body.style.backgroundImage = 'url(/img/metsa3.jpg)'
+                document.body.style.backgroundImage = "url('/img/metsa3.jpg')"
                 document.body.style.backgroundPosition = "center center"
                 document.body.style.backgroundSize = 'cover'
                 document.body.style.backgroundRepeat = 'no-repeat'
